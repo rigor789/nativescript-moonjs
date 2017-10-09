@@ -1,0 +1,28 @@
+{
+  "name": "nativescript-moonjs",
+  "version": "0.0.1",
+  "description": "Integration between NativeScript and MoonJs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigor789/nativescript-moonjs.git"
+  },
+  "keywords": [
+    "nativescript",
+    "moonjs"
+  ],
+  "author": "rigor789",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rigor789/nativescript-moonjs/issues"
+  },
+  "homepage": "https://github.com/rigor789/nativescript-moonjs#readme",
+  "dependencies": {
+    "moonjs": "^0.11.0",
+    "rollup": "^0.50.0"
+  },
+  "scripts": {
+    "dev": "rollup -c -w --o samples/app/nativescript-moonjs.js",
+    "build": "rollup -c"
+  }
+}
